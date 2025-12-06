@@ -7,7 +7,7 @@
   <a href="https://github.com/mounish4882">
     <img src="https://img.shields.io/badge/👨‍💻_Mounish_Ravichandran-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=667eea&color=764ba2" alt="Mounish Ravichandran"/>
   </a>
-  <a href="https://www.linkedin.com/in/mounish-ravichandran">
+  <a href="https://www.linkedin.com/in/mounishravichandran/">
     <img src="https://img.shields.io/badge/Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <img src="https://komarev.com/ghpvc/?username=mounish4882&repo=data-engineering-patterns&color=blueviolet&style=for-the-badge&label=👁️+VIEWS" alt="Profile Views"/>
@@ -20,15 +20,15 @@
 
 <!-- Typing SVG -->
 <p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Kafka+%E2%86%92+Delta+Lake+Streaming+%7C+Real-time+Analytics;Spark+Optimization+%7C+40%25+Cost+Reduction;MLOps+%7C+Feature+Stores+%7C+ML+Inference;99.9%25+Uptime+%7C+Sub-30s+Latency" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Kafka+%E2%86%92+Delta+Lake+Streaming+%7C+Real-time+Analytics;Spark+%2B+PySpark+Optimization+%7C+40%25+Cost+Reduction;MLOps+%7C+MLflow+%7C+Production+ML+Pipelines;99.9%25+Uptime+%7C+Sub-30s+Latency+%7C+SASL_SSL+Security" alt="Typing SVG" />
 </p>
 
 <!-- Animated Badges -->
 <p>
   <img src="https://img.shields.io/badge/⚡_Streaming-Kafka_+_Flink-FF6B6B?style=for-the-badge" />
   <img src="https://img.shields.io/badge/🔥_Batch-Spark_+_Delta-4ECDC4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🤖_MLOps-Real--time-95E1D3?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/☁️_Cloud-Azure_+_AWS-FFE66D?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🤖_MLOps-MLflow_+_Production-95E1D3?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/☁️_Platform-Databricks-FFE66D?style=for-the-badge" />
 </p>
 
 ---
@@ -55,81 +55,62 @@
 <td align="center" width="25%">
   <img src="https://img.icons8.com/fluency/96/000000/shield.png" width="50"/>
   <br/><b>Enterprise Grade</b><br/>
-  <sup>mTLS + RBAC<br/>Compliance ready</sup>
+  <sup>SASL_SSL<br/>Secure by default</sup>
 </td>
 </tr>
 </table>
 
 ---
 
-### 💻 Tech Stack Mastery
+### 💻 Core Technology Expertise
 
 <details open>
-<summary><b>🔥 Click to expand full tech arsenal</b></summary>
+<summary><b>🔥 Click to see my tech stack</b></summary>
 <br/>
 
-**Stream Processing**
+**Stream Processing & Messaging**
 <p>
   <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kafka_Streams-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
   <img src="https://img.shields.io/badge/Apache_Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spark_Streaming-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+  <img src="https://img.shields.io/badge/SASL__SSL-Secure-success?style=for-the-badge" />
 </p>
 
-**Batch Processing & Storage**
+**Big Data Processing**
 <p>
   <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
   <img src="https://img.shields.io/badge/Delta_Lake-00ADD8?style=for-the-badge&logo=delta&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache_Iceberg-1563FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Parquet-50ABF1?style=for-the-badge" />
-</p>
-
-**Cloud & Infrastructure**
-<p>
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
   <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
 </p>
 
-**Languages & Frameworks**
+**Languages**
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
 </p>
 
-**Databases & Caching**
+**Data Science & ML**
 <p>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&logo=apachecassandra&logoColor=white" />
-</p>
-
-**Orchestration & Workflow**
-<p>
-  <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prefect-024DFD?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
-</p>
-
-**Monitoring & Observability**
-<p>
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white" />
-  <img src="https://img.shields.io/badge/ELK_Stack-005571?style=for-the-badge&logo=elasticstack&logoColor=white" />
-</p>
-
-**ML & AI**
-<p>
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+</p>
+
+**MLOps & Orchestration**
+<p>
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
+</p>
+
+**DevOps & Infrastructure**
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
 </p>
 
 </details>
@@ -168,26 +149,28 @@
 
 ### ✨ Not Your Average Tutorial Repo
 
-This is a **production-grade engineering playbook** from the trenches:
+This is a **production-grade engineering playbook** from real-world experience:
 
 - 📈 Processing **5M+ events/day** in manufacturing IoT
 - ⚡ **Sub-30 second** end-to-end latency
 - 💰 **$50K/year** cost savings through optimization
 - 🔒 **99.9% uptime** SLA compliance
 - 🎯 **Zero data loss** with exactly-once semantics
+- 🔐 **SASL_SSL** secured Kafka clusters
 
 </td>
 <td width="50%">
 
 ### 🔥 Battle-Tested Patterns
 
-Every line of code here has been:
+Every pattern here has been:
 
 ✅ Deployed in production at enterprise scale
 ✅ Optimized for performance (10x improvements documented)
-✅ Secured for compliance (HIPAA, SOC2, GDPR ready)
-✅ Monitored 24/7 with comprehensive observability
+✅ Secured with SASL_SSL authentication
+✅ Monitored 24/7 with Grafana dashboards
 ✅ Proven to reduce costs by 40%+
+✅ Built with PySpark and Kafka best practices
 
 </td>
 </tr>
@@ -205,25 +188,28 @@ graph TB
     START[🏠 Data Engineering Patterns] --> STREAM[🚀 Real-Time Streaming]
     START --> BATCH[⚡ Batch Processing]
     START --> ARCH[🏗️ Data Architecture]
-    START --> SEC[🔐 Security]
+    START --> SEC[🔐 Security & SASL_SSL]
     START --> ORC[🎯 Orchestration]
     START --> MON[📊 Monitoring]
-    START --> ML[🤖 AI/ML Integration]
-    START --> CLOUD[☁️ Cloud Platforms]
+    START --> ML[🤖 MLOps Integration]
     START --> TEST[🧪 Testing]
     START --> PROJ[📚 Real-World Projects]
 
     STREAM --> S1[Kafka → Delta Lake ⭐]
     STREAM --> S2[Flink CEP]
-    STREAM --> S3[Spark Streaming]
+    STREAM --> S3[Kafka Streams]
 
     BATCH --> B1[Spark Optimization]
     BATCH --> B2[Delta Lake Advanced]
-    BATCH --> B3[Iceberg Migration]
+    BATCH --> B3[PySpark Best Practices]
+
+    ML --> M1[MLflow Integration]
+    ML --> M2[Feature Engineering]
+    ML --> M3[Model Deployment]
 
     PROJ --> P1[Manufacturing IoT]
     PROJ --> P2[CDC Streaming]
-    PROJ --> P3[Multi-Tenant SaaS]
+    PROJ --> P3[ML Pipeline Production]
 
     classDef startStyle fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
     classDef streamStyle fill:#FF6B6B,stroke:#C44569,stroke-width:2px,color:#fff
@@ -234,7 +220,7 @@ graph TB
     class START startStyle
     class STREAM,S1,S2,S3 streamStyle
     class BATCH,B1,B2,B3 batchStyle
-    class ML mlStyle
+    class ML,M1,M2,M3 mlStyle
     class PROJ,P1,P2,P3 projStyle
 ```
 
@@ -243,19 +229,19 @@ graph TB
 ## 🎨 Pattern Categories
 
 <details open>
-<summary><h3>🚀 Real-Time Streaming Patterns (Click to expand)</h3></summary>
+<summary><h3>🚀 Real-Time Streaming Patterns</h3></summary>
 
 | Pattern | Difficulty | Time | Tech Stack | Status |
 |---------|-----------|------|------------|--------|
-| **[Kafka → Delta Lake](01-streaming-realtime/kafka-to-delta-lake/)** ⭐ | 🔴 Advanced | 2-3 hrs | Kafka, Spark, Delta Lake | ✅ Complete |
-| **[Flink Complex Event Processing](01-streaming-realtime/flink-complex-event/)** | 🔴 Advanced | 3-4 hrs | Flink, Kafka, PostgreSQL | 🚧 Coming |
-| **[Spark Structured Streaming](01-streaming-realtime/spark-structured-streaming/)** | 🟡 Intermediate | 2 hrs | Spark, Delta Lake | 🚧 Coming |
+| **[Kafka → Delta Lake](01-streaming-realtime/kafka-to-delta-lake/)** ⭐ | 🔴 Advanced | 2-3 hrs | Kafka, PySpark, Delta Lake, SASL_SSL | ✅ Complete |
+| **[Flink Complex Event Processing](01-streaming-realtime/flink-complex-event/)** | 🔴 Advanced | 3-4 hrs | Flink, Kafka, SQL | 🚧 Coming Soon |
+| **[Kafka Streams Processing](01-streaming-realtime/kafka-streams/)** | 🟡 Intermediate | 2 hrs | Kafka Streams, Scala | 🚧 Coming Soon |
 
 **Key Features:**
 - ⚡ Sub-30 second latency
 - 🔄 Exactly-once semantics
+- 🔐 SASL_SSL security
 - 📊 Auto schema evolution
-- 💧 Watermarking for late data
 - 📈 Handles 10K+ events/sec
 
 </details>
@@ -265,12 +251,12 @@ graph TB
 
 | Pattern | Difficulty | Time | Performance Gain | Status |
 |---------|-----------|------|------------------|--------|
-| **[Spark Optimization Tricks](02-batch-processing/spark-optimization-tricks/)** | 🟡 Intermediate | 1-2 hrs | 10x faster | 🚧 Coming |
-| **[Delta Lake Advanced](02-batch-processing/delta-lake-advanced/)** | 🟡 Intermediate | 2 hrs | 5x storage ↓ | 🚧 Coming |
-| **[Iceberg Migration](02-batch-processing/iceberg-migration/)** | 🔴 Advanced | 3 hrs | 70% cost ↓ | 🚧 Coming |
+| **[PySpark Optimization Tricks](02-batch-processing/spark-optimization-tricks/)** | 🟡 Intermediate | 1-2 hrs | 10x faster | 🚧 Coming Soon |
+| **[Delta Lake Advanced](02-batch-processing/delta-lake-advanced/)** | 🟡 Intermediate | 2 hrs | 5x storage ↓ | 🚧 Coming Soon |
+| **[Databricks Best Practices](02-batch-processing/databricks-patterns/)** | 🔴 Advanced | 3 hrs | 40% cost ↓ | 🚧 Coming Soon |
 
 **Optimizations Covered:**
-- 🎯 AQE (Adaptive Query Execution)
+- 🎯 Adaptive Query Execution (AQE)
 - 📦 Dynamic partition pruning
 - 🗜️ Z-ordering & data skipping
 - ⚡ Broadcast joins optimization
@@ -279,31 +265,25 @@ graph TB
 </details>
 
 <details>
-<summary><h3>🏗️ Data Architecture Patterns</h3></summary>
-
-| Pattern | Focus Area | Complexity | Status |
-|---------|-----------|-----------|--------|
-| **[Lakehouse Patterns](03-data-architecture/lakehouse-patterns/)** | Medallion Architecture | 🟡 Intermediate | 🚧 Coming |
-| **[Schema Evolution](03-data-architecture/schema-evolution-strategies/)** | Compatibility | 🟡 Intermediate | 🚧 Coming |
-| **[Nested Data Mastery](03-data-architecture/nested-data-mastery/)** | JSON/Complex Types | 🔴 Advanced | 🚧 Coming |
-| **[Dimensional Modeling](03-data-architecture/dimensional-modeling/)** | Star Schema, SCD | 🟢 Beginner | 🚧 Coming |
-
-</details>
-
-<details>
-<summary><h3>🤖 AI/ML Integration Patterns</h3></summary>
+<summary><h3>🤖 MLOps & ML Integration</h3></summary>
 
 | Pattern | Use Case | Tech | Status |
 |---------|----------|------|--------|
-| **[Streaming ML Inference](07-ai-ml-integration/streaming-ml-inference/)** | Real-time predictions | MLflow, Spark | 🚧 Coming |
-| **[Feature Store](07-ai-ml-integration/feature-store-patterns/)** | Feature engineering | Delta Lake, MLflow | 🚧 Coming |
-| **[Predictive Maintenance](07-ai-ml-integration/predictive-maintenance/)** | Manufacturing | TensorFlow, Spark | 🚧 Coming |
+| **[MLflow Production Pipeline](07-ai-ml-integration/mlflow-production/)** | Model lifecycle | MLflow, PySpark | 🚧 Coming Soon |
+| **[Feature Engineering with Spark](07-ai-ml-integration/feature-engineering/)** | Feature stores | PySpark, Delta Lake | 🚧 Coming Soon |
+| **[ML Model Deployment](07-ai-ml-integration/model-deployment/)** | TensorFlow/PyTorch | MLflow, Docker | 🚧 Coming Soon |
+
+**Technologies:**
+- 🔬 Scikit-learn for classical ML
+- 🧠 TensorFlow & PyTorch for deep learning
+- 📊 Pandas & NumPy for data processing
+- 🎯 MLflow for experiment tracking
 
 </details>
 
 ---
 
-## 🔥 Featured: Kafka → Delta Lake Streaming
+## 🔥 Featured: Kafka → Delta Lake Streaming Pipeline
 
 <div align="center">
 
@@ -323,15 +303,17 @@ Manufacturing sensors generating 5M+ events/day with:
 - Sub-30s latency requirement
 - Zero data loss tolerance
 - 99.9% uptime SLA
+- Secure SASL_SSL communication
 
 </td>
 <td width="50%">
 
 #### ✨ The Solution
 - **Medallion Architecture** (Bronze → Silver → Gold)
-- **Exactly-once semantics** with idempotent writes
-- **Auto schema evolution** handling unknown fields
-- **Comprehensive monitoring** (Prometheus + Grafana)
+- **Exactly-once semantics** with Kafka idempotency
+- **Auto schema evolution** with Delta Lake
+- **SASL_SSL security** for Kafka connections
+- **Grafana monitoring** for real-time metrics
 
 </td>
 </tr>
@@ -340,17 +322,17 @@ Manufacturing sensors generating 5M+ events/day with:
 ```mermaid
 %%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#667eea','primaryTextColor':'#fff','lineColor':'#f093fb'}}}%%
 graph LR
-    A[IoT Sensors<br/>5M events/day] -->|JSON| B[Kafka Topics<br/>Partitioned]
-    B -->|Stream| C[Spark Streaming<br/>Watermarking]
+    A[IoT Sensors<br/>5M events/day] -->|JSON + SASL_SSL| B[Kafka Topics<br/>Partitioned]
+    B -->|PySpark Stream| C[Spark Streaming<br/>Watermarking]
     C -->|Raw| D[(Bronze Layer<br/>Delta Lake)]
     D -->|Validated| E[(Silver Layer<br/>Cleaned)]
     E -->|Aggregated| F[(Gold Layer<br/>Analytics)]
 
-    G[Monitoring Stack] -.->|Metrics| C
-    G -.->|Alerts| H[PagerDuty]
+    G[Grafana Monitoring] -.->|Metrics| C
+    G -.->|Alerts| H[Team Alerts]
 
-    F --> I[BI Dashboards<br/>Power BI]
-    F --> J[ML Models<br/>Real-time]
+    F --> I[BI Dashboards]
+    F --> J[ML Models<br/>MLflow]
 
     style A fill:#FF6B6B
     style B fill:#FF6B6B
@@ -364,7 +346,7 @@ graph LR
 ### ⚡ Quick Start (3 Commands!)
 
 ```bash
-# 1️⃣ Start infrastructure (Kafka, Zookeeper, Monitoring)
+# 1️⃣ Start infrastructure (Kafka with SASL_SSL, Monitoring)
 docker-compose up -d
 
 # 2️⃣ Install dependencies
@@ -411,10 +393,11 @@ python src/run_pipeline.py
 
 **What's Included:**
 - 📝 500+ line comprehensive README with architecture diagrams
-- 🐳 Complete Docker Compose stack (Kafka, Prometheus, Grafana)
+- 🐳 Complete Docker Compose with Kafka (SASL_SSL enabled)
 - 🔥 Production-grade PySpark streaming pipeline
-- 🎲 Realistic data generator (simulates 10 machines with anomalies)
+- 🎲 Realistic data generator (simulates 10 machines)
 - 📊 Grafana dashboards for monitoring
+- 🔐 Security best practices (SASL_SSL configuration)
 - 🧪 Unit & integration tests
 - 📚 Troubleshooting guide
 
@@ -429,9 +412,9 @@ python src/run_pipeline.py
 ### 🟢 Beginner Path
 **4-6 hours**
 
-1. [Batch Basics](02-batch-processing/)
-2. [Delta Lake Intro](02-batch-processing/delta-lake-advanced/)
-3. [Cloud Setup](08-cloud-azure/)
+1. [Batch Basics with PySpark](02-batch-processing/)
+2. [Delta Lake Introduction](02-batch-processing/delta-lake-advanced/)
+3. [Databricks Fundamentals](02-batch-processing/databricks-patterns/)
 
 Perfect for:
 - Data analysts transitioning
@@ -444,13 +427,13 @@ Perfect for:
 ### 🟡 Intermediate Path
 **8-12 hours**
 
-4. [Streaming Intro](01-streaming-realtime/)
-5. [Lakehouse Architecture](03-data-architecture/)
-6. [Testing Strategies](09-testing-strategies/)
+4. [Kafka Streaming Intro](01-streaming-realtime/)
+5. [MLflow Integration](07-ai-ml-integration/)
+6. [Airflow Orchestration](05-pipeline-orchestration/)
 
 Perfect for:
 - Junior data engineers
-- Migration projects
+- ML engineers
 - Team onboarding
 
 </td>
@@ -459,9 +442,9 @@ Perfect for:
 ### 🔴 Advanced Path
 **12-20 hours**
 
-7. [Complex Event Processing](01-streaming-realtime/flink-complex-event/)
-8. [MLOps Integration](07-ai-ml-integration/)
-9. [Production Case Study](10-real-world-projects/)
+7. [Flink Event Processing](01-streaming-realtime/flink-complex-event/)
+8. [Production MLOps](07-ai-ml-integration/)
+9. [End-to-End Case Study](10-real-world-projects/)
 
 Perfect for:
 - Senior engineers
@@ -487,9 +470,9 @@ Perfect for:
 | **Pipeline Latency** | <30 seconds | End-to-end (sensor → visualization) |
 | **Uptime SLA** | 99.9% | 18 months in production |
 | **Cost Reduction** | 42% | vs previous batch architecture |
-| **Query Performance** | 10x faster | After optimization patterns applied |
-| **Team Velocity** | 3x increase | With reusable patterns & CI/CD |
-| **Defect Detection** | 24hrs → 45s | Real-time anomaly detection |
+| **Query Performance** | 10x faster | After PySpark optimization |
+| **Team Velocity** | 3x increase | With reusable patterns & Airflow |
+| **Defect Detection** | 24hrs → 45s | Real-time anomaly detection with MLflow |
 
 </div>
 
@@ -504,16 +487,16 @@ Perfect for:
 ### 💎 For Individual Contributors
 
 ✨ **Comprehensive Learning**
-- Step-by-step implementation guides
-- Architecture decision records (ADRs)
-- Performance tuning deep-dives
-- Interview prep materials
+- Step-by-step PySpark implementations
+- Kafka best practices (SASL_SSL, replication)
+- MLflow for production ML
+- Grafana monitoring setup
 
 🚀 **Career Growth**
 - Portfolio-ready projects
-- Production patterns on resume
+- Production patterns for resume
 - Technical blog material
-- Conference talk ideas
+- Interview preparation
 
 </td>
 <td width="50%">
@@ -521,16 +504,16 @@ Perfect for:
 ### 🏢 For Engineering Teams
 
 ⚡ **Faster Onboarding**
-- Standardized patterns
-- Best practices documentation
-- Copy-paste ready code
-- Testing strategies
+- Standardized Kafka patterns
+- PySpark best practices
+- Databricks workflows
+- Airflow DAG examples
 
 💰 **Business Value**
-- Proven cost optimizations
+- Proven cost optimizations (40%+)
 - Performance benchmarks
-- Migration playbooks
-- Risk mitigation strategies
+- Security implementations (SASL_SSL)
+- Scalability patterns
 
 </td>
 </tr>
@@ -542,13 +525,13 @@ Perfect for:
 
 <div align="center">
 
-| 🚀 Streaming | ⚡ Batch | 🏗️ Architecture | 🔐 Security | 🎯 Orchestration |
-|:------------:|:-------:|:--------------:|:-----------:|:----------------:|
-| [Kafka Patterns](01-streaming-realtime/) | [Spark Optimization](02-batch-processing/) | [Lakehouse Design](03-data-architecture/) | [Enterprise Security](04-security-implementation/) | [CI/CD Pipelines](05-pipeline-orchestration/) |
+| 🚀 Streaming | ⚡ Batch | 🤖 MLOps | 🔐 Security | 🎯 Orchestration |
+|:------------:|:-------:|:--------:|:-----------:|:----------------:|
+| [Kafka + Flink](01-streaming-realtime/) | [PySpark + Delta](02-batch-processing/) | [MLflow + Models](07-ai-ml-integration/) | [SASL_SSL Setup](04-security-implementation/) | [Airflow + Databricks](05-pipeline-orchestration/) |
 
-| 📊 Monitoring | 🤖 AI/ML | ☁️ Cloud | 🧪 Testing | 📚 Projects |
-|:-------------:|:--------:|:--------:|:----------:|:-----------:|
-| [Observability](06-monitoring-observability/) | [MLOps Patterns](07-ai-ml-integration/) | [Azure & AWS](08-cloud-azure/) | [Quality Assurance](09-testing-strategies/) | [Case Studies](10-real-world-projects/) |
+| 📊 Monitoring | 🐳 DevOps | 🧪 Testing | 📚 Projects | 📖 Docs |
+|:-------------:|:---------:|:----------:|:-----------:|:-------:|
+| [Grafana Dashboards](06-monitoring-observability/) | [Docker + K8s](08-cloud-azure/) | [Testing Patterns](09-testing-strategies/) | [Case Studies](10-real-world-projects/) | [Documentation](docs/) |
 
 </div>
 
@@ -569,32 +552,34 @@ Every pattern follows enterprise standards:
 ```python
 from typing import Dict, Optional
 from pyspark.sql import DataFrame, SparkSession
+from pyspark.sql.functions import from_json, col
 import logging
 
 logger = logging.getLogger(__name__)
 
-def process_streaming_data(
+def process_kafka_stream(
     spark: SparkSession,
     kafka_brokers: str,
     topic: str,
     checkpoint_location: str,
-    config: Optional[Dict] = None
+    sasl_config: Optional[Dict] = None
 ) -> DataFrame:
     """
-    Process streaming data from Kafka with schema validation.
+    Process streaming data from Kafka with SASL_SSL authentication.
 
-    This function implements exactly-once semantics with:
-    - Automatic schema evolution
-    - Watermarking for late data
+    This function implements production-grade patterns:
+    - SASL_SSL secure authentication
+    - Exactly-once semantics
+    - Automatic schema evolution with Delta Lake
+    - Watermarking for late data handling
     - Comprehensive error handling
-    - Prometheus metrics integration
 
     Args:
         spark: Active Spark session with Delta Lake support
         kafka_brokers: Comma-separated broker addresses
         topic: Kafka topic to consume from
         checkpoint_location: Path for streaming state
-        config: Optional configuration overrides
+        sasl_config: SASL_SSL configuration (username, password)
 
     Returns:
         Streaming DataFrame with processed data
@@ -604,13 +589,19 @@ def process_streaming_data(
         RuntimeError: If stream processing fails
 
     Example:
-        >>> df = process_streaming_data(
+        >>> sasl_config = {
+        ...     "security.protocol": "SASL_SSL",
+        ...     "sasl.mechanism": "PLAIN",
+        ...     "sasl.username": "user",
+        ...     "sasl.password": "pass"
+        ... }
+        >>> df = process_kafka_stream(
         ...     spark=spark,
-        ...     kafka_brokers="localhost:9092",
+        ...     kafka_brokers="broker:9093",
         ...     topic="sensor-events",
-        ...     checkpoint_location="/tmp/checkpoints"
+        ...     checkpoint_location="/checkpoints",
+        ...     sasl_config=sasl_config
         ... )
-        >>> df.writeStream.format("delta").start("/tmp/delta")
 
     Performance:
         - Handles 10K+ events/second
@@ -618,29 +609,46 @@ def process_streaming_data(
         - Auto-scaling with backpressure
 
     See Also:
-        - Schema evolution guide: docs/SCHEMA_EVOLUTION.md
+        - SASL_SSL setup guide: docs/SECURITY.md
         - Monitoring setup: docs/MONITORING.md
     """
     try:
-        logger.info(f"Starting stream from topic: {topic}")
+        logger.info(f"Starting secure Kafka stream from topic: {topic}")
 
-        # Implementation with comprehensive error handling
-        # ... (see full code in repository)
+        # Build Kafka options with SASL_SSL
+        kafka_options = {
+            "kafka.bootstrap.servers": kafka_brokers,
+            "subscribe": topic,
+            "startingOffsets": "latest",
+            "maxOffsetsPerTrigger": 100000,
+        }
+
+        # Add SASL_SSL configuration if provided
+        if sasl_config:
+            kafka_options.update({
+                f"kafka.{k}": v for k, v in sasl_config.items()
+            })
+
+        # Read secure stream
+        df = spark.readStream.format("kafka").options(**kafka_options).load()
+
+        logger.info("Kafka stream connected successfully with SASL_SSL")
+        return df
 
     except Exception as e:
-        logger.error(f"Stream processing failed: {e}", exc_info=True)
-        raise RuntimeError(f"Failed to process stream: {e}")
+        logger.error(f"Failed to process Kafka stream: {e}", exc_info=True)
+        raise RuntimeError(f"Kafka stream processing failed: {e}")
 ```
 
 **Standards Applied:**
 - ✅ Type hints (Python 3.9+)
 - ✅ Google-style docstrings
+- ✅ SASL_SSL security patterns
 - ✅ Comprehensive error handling
 - ✅ Structured logging
 - ✅ Unit tests (>80% coverage)
-- ✅ Integration tests
-- ✅ Performance benchmarks
-- ✅ Security best practices
+- ✅ PySpark best practices
+- ✅ Production-ready configurations
 
 ---
 
@@ -674,20 +682,28 @@ We love contributions! This repository thrives on community involvement.
 | Guide | Description | Target Audience |
 |-------|-------------|-----------------|
 | [Architecture Decisions](docs/ARCHITECTURE_DECISIONS.md) | ADRs with context & tradeoffs | 🏗️ Architects, Tech Leads |
-| [Performance Tuning](docs/PERFORMANCE_TUNING.md) | Spark optimization deep dive | ⚡ Data Engineers |
+| [Performance Tuning](docs/PERFORMANCE_TUNING.md) | PySpark optimization deep dive | ⚡ Data Engineers |
+| [Security Guide](docs/SECURITY.md) | SASL_SSL, Kafka security | 🔐 Security Engineers |
+| [MLOps Best Practices](docs/MLOPS.md) | MLflow production patterns | 🤖 ML Engineers |
 | [Troubleshooting Guide](docs/TROUBLESHOOTING.md) | Common issues & solutions | 🔧 All Engineers |
-| [Interview Prep](docs/INTERVIEW_PREP.md) | System design questions | 💼 Job Seekers |
-| [Resources & Learning](docs/RESOURCES.md) | Curated learning path | 🎓 Beginners |
 
 </details>
 
 <details>
 <summary><b>🎥 Recommended Learning</b></summary>
 
-- **Books**: Designing Data-Intensive Applications (Martin Kleppmann)
-- **Courses**: Databricks Academy, Confluent Kafka Training
-- **Conferences**: Data + AI Summit, Kafka Summit, Spark Summit
-- **Blogs**: Databricks Engineering Blog, Netflix Tech Blog
+- **Books**:
+  - Designing Data-Intensive Applications (Martin Kleppmann)
+  - Learning Spark: Lightning-Fast Data Analytics
+  - Kafka: The Definitive Guide
+- **Courses**:
+  - Databricks Academy (Spark & Delta Lake)
+  - Confluent Kafka Training
+  - MLflow for Production
+- **Conferences**:
+  - Data + AI Summit
+  - Kafka Summit
+  - Spark + AI Summit
 
 </details>
 
@@ -697,14 +713,14 @@ We love contributions! This repository thrives on community involvement.
 
 Track your mastery journey:
 
-- [ ] 🟢 Complete beginner track (3 patterns)
-- [ ] 🟡 Complete intermediate track (5 patterns)
-- [ ] 🔴 Complete advanced track (8 patterns)
+- [ ] 🟢 Complete beginner track (PySpark basics)
+- [ ] 🟡 Complete intermediate track (Kafka streaming)
+- [ ] 🔴 Complete advanced track (Flink CEP)
 - [ ] 🏆 Build one end-to-end project
-- [ ] 🌟 Contribute a pattern or improvement
+- [ ] 🔐 Implement SASL_SSL security
+- [ ] 📊 Set up Grafana monitoring
+- [ ] 🤖 Deploy ML model with MLflow
 - [ ] 🚀 Deploy to production & share success story
-- [ ] 📝 Write a blog post about your learnings
-- [ ] 🎤 Give a tech talk using these patterns
 
 **Estimated Time to Mastery**: 40-60 hours of hands-on practice
 
@@ -720,7 +736,7 @@ Track your mastery journey:
   <a href="https://github.com/mounish4882">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/mounish-ravichandran">
+  <a href="https://linkedin.com/in/mounishravichandran/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://medium.com/@mounish4882">
@@ -733,10 +749,10 @@ Track your mastery journey:
 
 **Open to:**
 - 💼 Data Engineering opportunities
-- 🤝 Technical collaboration
+- 🤝 Technical collaboration on Kafka/Spark projects
 - 🎯 Consulting & architecture reviews
-- 🎤 Speaking engagements
-- 📚 Technical writing
+- 🎤 Speaking engagements about streaming & MLOps
+- 📚 Technical writing & knowledge sharing
 
 </div>
 
@@ -753,8 +769,6 @@ Track your mastery journey:
 ![Pull Requests](https://img.shields.io/github/issues-pr/mounish4882/data-engineering-patterns)
 ![Last Commit](https://img.shields.io/github/last-commit/mounish4882/data-engineering-patterns)
 ![License](https://img.shields.io/github/license/mounish4882/data-engineering-patterns)
-
-<img src="https://repobeats.axiom.co/api/embed/placeholder.svg" alt="Repobeats analytics" />
 
 </div>
 
