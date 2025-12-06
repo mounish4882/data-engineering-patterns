@@ -1,217 +1,199 @@
 # Contributing to Data Engineering Patterns
 
-First off, thank you for considering contributing to this project! 🎉
+Thank you for your interest in contributing! This repository is built on real-world production experience, and we welcome contributions that add value to the data engineering community.
 
-This repository is built by data engineers, for data engineers. Your contributions help make production-grade patterns accessible to everyone.
+## 🎯 What We're Looking For
 
-## 🌟 How Can I Contribute?
+### ✅ Great Contributions
 
-### 1. Share Your Battle-Tested Patterns
+- **Production Patterns**: Architectural patterns you've used in production
+- **Troubleshooting Guides**: Solutions to problems you've actually solved
+- **Performance Optimizations**: Techniques that improved real systems
+- **Best Practices**: Lessons learned from production deployments
+- **Documentation Improvements**: Making existing patterns clearer
+- **Bug Fixes**: Correcting errors in code or documentation
 
-Have a production pattern that solved a real problem? We'd love to include it!
+### ❌ What We Don't Accept
 
-**What makes a great pattern contribution:**
-- ✅ Deployed in production
-- ✅ Solves a specific, common problem
-- ✅ Includes working code examples
-- ✅ Has clear documentation
-- ✅ Provides before/after metrics when possible
+- Theoretical patterns without production validation
+- Company-specific proprietary code or sensitive data
+- Patterns without clear documentation
+- Breaking changes without discussion
 
-### 2. Improve Existing Documentation
+## 🚀 How to Contribute
 
-Found something unclear or outdated? Help make it better:
-- Fix typos and grammar
-- Add more examples
-- Improve diagrams
-- Update deprecated code
-- Add troubleshooting tips
+### 1. Before You Start
 
-### 3. Report Issues
+- Check existing [issues](../../issues) and [pull requests](../../pulls)
+- Open an issue to discuss your idea first (for large changes)
+- Read our [Code of Conduct](#code-of-conduct)
 
-Encountered a bug or problem? Let us know:
-- Check if the issue already exists
-- Use the issue templates
-- Provide clear reproduction steps
-- Include environment details
-
-### 4. Suggest New Patterns
-
-Have an idea for a pattern that should be here?
-- Open a feature request
-- Describe the problem it solves
-- Outline the proposed solution
-- Reference any relevant resources
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.9+
-- Docker Desktop
-- Git
-- Basic knowledge of data engineering concepts
-
-### Development Setup
+### 2. Development Workflow
 
 ```bash
-# Fork and clone the repository
+# 1. Fork the repository
+# Click "Fork" button on GitHub
+
+# 2. Clone your fork
 git clone https://github.com/YOUR_USERNAME/data-engineering-patterns.git
 cd data-engineering-patterns
 
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# 3. Create a feature branch
+git checkout -b feature/my-awesome-pattern
 
-# Install development dependencies
-pip install -r requirements-dev.txt
+# 4. Make your changes
+# ... edit files ...
 
-# Install pre-commit hooks
-pre-commit install
+# 5. Test your changes
+# Ensure all code examples work
+# Run any relevant tests
+
+# 6. Commit with clear messages
+git add .
+git commit -m "feat: add Spark optimization pattern for skewed joins
+
+- Add detailed explanation of salting technique
+- Include before/after performance metrics
+- Add code examples with comments"
+
+# 7. Push to your fork
+git push origin feature/my-awesome-pattern
+
+# 8. Create Pull Request
+# Go to GitHub and click "New Pull Request"
 ```
 
----
+### 3. Commit Message Guidelines
 
-## 📝 Contribution Guidelines
+We follow [Conventional Commits](https://www.conventionalcommits.org/):
 
-### Code Style
+```
+<type>: <description>
 
-All code must follow these standards:
+[optional body]
 
-1. **Python Code**:
-   - Use Black for formatting (line length: 100)
-   - Follow PEP 8 guidelines
-   - Include type hints (Python 3.9+)
-   - Write Google-style docstrings
-   - Add comprehensive error handling
+[optional footer]
+```
 
-2. **Documentation**:
-   - Use clear, concise language
-   - Include Mermaid diagrams for architecture
-   - Add code examples with comments
-   - Provide "When to use" and "When NOT to use" sections
+**Types:**
+- `feat`: New pattern or significant addition
+- `fix`: Bug fix or correction
+- `docs`: Documentation only changes
+- `style`: Formatting, missing semicolons, etc.
+- `refactor`: Code refactoring
+- `test`: Adding tests
+- `chore`: Maintenance tasks
 
-3. **Testing**:
-   - Write unit tests for all functions
-   - Aim for >80% code coverage
-   - Include integration tests where applicable
-   - Use pytest for testing
+**Examples:**
+```
+feat: add dimensional modeling pattern for manufacturing
 
-### Code Example Template
+- Add SCD Type 2 implementation
+- Include example schemas
+- Add best practices guide
 
+docs: improve Kafka authentication troubleshooting guide
+
+fix: correct typo in Delta Lake merge example
+
+refactor: reorganize schema evolution patterns for clarity
+```
+
+## 📝 Contribution Standards
+
+### Code Quality
+
+**Python Code:**
 ```python
-from typing import Dict, List, Optional
-from pyspark.sql import DataFrame, SparkSession
+from typing import List, Dict, Optional
+from pyspark.sql import DataFrame
 import logging
 
 logger = logging.getLogger(__name__)
 
-
-def your_function(
-    spark: SparkSession,
-    input_path: str,
-    output_path: str,
-    options: Optional[Dict[str, str]] = None
+def process_manufacturing_data(
+    df: DataFrame,
+    plant_ids: List[str],
+    config: Optional[Dict] = None
 ) -> DataFrame:
     """
-    Brief description of what the function does.
+    Process manufacturing sensor data with validation.
 
-    This function demonstrates [key concept]. It handles [specific scenario]
-    by implementing [solution approach].
+    This function demonstrates best practices for:
+    - Type hints for clarity
+    - Comprehensive docstrings
+    - Error handling
+    - Logging
 
     Args:
-        spark: Active Spark session
-        input_path: Path to input data
-        output_path: Path for output data
-        options: Optional configuration dictionary
+        df: Input DataFrame with sensor readings
+        plant_ids: List of plant IDs to filter
+        config: Optional configuration dictionary
 
     Returns:
-        Processed DataFrame
+        Processed DataFrame with cleaned data
 
     Raises:
-        ValueError: If input_path is invalid
-        RuntimeError: If processing fails
+        ValueError: If plant_ids is empty
 
     Example:
-        >>> df = your_function(
-        ...     spark=spark,
-        ...     input_path="s3://bucket/input",
-        ...     output_path="s3://bucket/output"
+        >>> df = process_manufacturing_data(
+        ...     raw_df,
+        ...     plant_ids=["PLANT_001", "PLANT_002"]
         ... )
-        >>> df.show()
-
-    Note:
-        This pattern is most effective when dealing with [scenario].
-        For alternative approaches, see [related pattern].
     """
-    try:
-        logger.info(f"Processing data from {input_path}")
+    if not plant_ids:
+        raise ValueError("plant_ids cannot be empty")
 
-        # Your implementation here
-        df = spark.read.parquet(input_path)
+    logger.info(f"Processing data for {len(plant_ids)} plants")
 
-        # Process data
-        result = df.filter("condition")
+    # Your implementation
+    processed_df = df.filter(col("plant_id").isin(plant_ids))
 
-        # Write output
-        result.write.mode("overwrite").parquet(output_path)
-
-        logger.info(f"Successfully processed {result.count()} records")
-        return result
-
-    except Exception as e:
-        logger.error(f"Processing failed: {e}")
-        raise RuntimeError(f"Failed to process data: {e}")
+    return processed_df
 ```
 
----
+**Standards:**
+- ✅ Type hints (Python 3.10+)
+- ✅ Google-style docstrings
+- ✅ Error handling
+- ✅ Logging where appropriate
+- ✅ Code comments for complex logic
+- ✅ 100-character line length max
 
-## 📁 Pattern Structure
+### Documentation
 
-When adding a new pattern, follow this structure:
+**Pattern Structure:**
+
+Every pattern should include:
 
 ```
 pattern-name/
-├── README.md                 # Main documentation
-├── src/
-│   ├── __init__.py
-│   ├── pipeline.py          # Main implementation
-│   ├── config.py            # Configuration
-│   └── utils.py             # Helper functions
-├── tests/
-│   ├── __init__.py
-│   ├── test_pipeline.py
-│   └── test_utils.py
-├── notebooks/
-│   └── demo.ipynb           # Interactive demo
-├── docker/
-│   └── docker-compose.yml   # Local environment
-├── diagrams/
-│   └── architecture.mmd     # Mermaid diagrams
-└── examples/
-    └── example_usage.py     # Usage examples
+├── README.md              # Main documentation
+├── src/                   # Code examples
+│   └── example.py
+├── examples/              # Working examples
+│   └── usage_example.py
+├── tests/                 # Tests (if applicable)
+│   └── test_example.py
+└── docs/                  # Additional documentation
+    └── troubleshooting.md
 ```
 
-### README Template for Patterns
+**README Template:**
 
-```markdown
+````markdown
 # Pattern Name
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Clear description of the problem this pattern solves.
 
-**Symptoms:**
-- Issue 1
-- Issue 2
+## Solution Overview
 
-**Why this matters:**
-Business or technical impact explanation.
+High-level explanation of the approach.
 
----
-
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 graph LR
@@ -219,244 +201,207 @@ graph LR
     B --> C[Component C]
 ```
 
----
+## Implementation
 
-## ⚡ Quick Start
+### Prerequisites
+- Requirement 1
+- Requirement 2
 
-\```bash
-# Setup
-docker-compose up -d
+### Code Example
 
-# Run the pattern
-python src/pipeline.py --config config/production.yml
-\```
-
----
-
-## 💻 Implementation Details
-
-### Core Components
-
-1. **Component 1**: What it does
-2. **Component 2**: What it does
-
-### Key Design Decisions
-
-**Decision 1**: Why we chose this approach
-**Decision 2**: Tradeoffs considered
-
----
-
-## 📊 Performance Metrics
-
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| Latency | 15 min | 30 sec | 30x faster |
-| Cost | $500/day | $300/day | 40% reduction |
-
----
-
-## ✅ When to Use
-
-- Scenario 1
-- Scenario 2
-
-## ❌ When NOT to Use
-
-- Scenario 1
-- Scenario 2
-
----
-
-## 🔗 Related Patterns
-
-- [Related Pattern 1](../pattern-1/)
-- [Related Pattern 2](../pattern-2/)
-
----
-
-## 📚 Further Reading
-
-- [Resource 1](link)
-- [Resource 2](link)
-
----
-
-## 🤝 Contributing
-
-Found an improvement? See [CONTRIBUTING.md](../../CONTRIBUTING.md)
+```python
+# Clear, working code example
 ```
 
----
+### Configuration
 
-## 🔄 Pull Request Process
+Explain any configuration needed.
 
-1. **Create a Feature Branch**
-   ```bash
-   git checkout -b feature/your-pattern-name
-   ```
+## When to Use
 
-2. **Make Your Changes**
-   - Follow the code style guidelines
-   - Add tests for new functionality
-   - Update documentation
+✅ **Use this pattern when:**
+- Scenario 1
+- Scenario 2
 
-3. **Test Your Changes**
-   ```bash
-   # Run tests
-   pytest tests/
+❌ **Don't use when:**
+- Scenario 1
+- Scenario 2
 
-   # Check code quality
-   black --check .
-   pylint src/
-   mypy src/
-   ```
+## Performance Considerations
 
-4. **Commit Your Changes**
-   ```bash
-   git add .
-   git commit -m "feat: add [pattern name] implementation
+Any performance implications or optimizations.
 
-   - Add core implementation
-   - Include unit tests
-   - Add documentation
-   "
-   ```
+## Troubleshooting
 
-5. **Push and Create PR**
-   ```bash
-   git push origin feature/your-pattern-name
-   ```
-   - Use the PR template
-   - Link related issues
-   - Add screenshots/diagrams
-   - Request review
+Common issues and solutions.
 
-6. **Address Review Comments**
-   - Respond to all feedback
-   - Make requested changes
-   - Update tests if needed
+## References
 
-7. **Merge**
-   - Squash commits for clean history
-   - Update CHANGELOG.md
-   - Delete feature branch after merge
+- [External resource 1](link)
+- [External resource 2](link)
+````
 
----
+### No Sensitive Data
 
-## 📋 PR Checklist
+**❌ Never include:**
+- Company-specific configurations
+- Real production URLs, IPs, or hostnames
+- Actual credentials (even expired ones)
+- Proprietary business logic
+- Real customer data
+- Internal system architecture details
+
+**✅ Instead use:**
+- Generic examples: `example.com`, `plant-001`, `sensor-123`
+- Placeholder credentials: `<your-username>`, `${SECRET_NAME}`
+- Synthetic data: Generated test data
+- Generic architectural patterns
+
+**Example:**
+
+```python
+# ❌ Bad - Real company data
+kafka_brokers = "prod-kafka-01.company-internal.com:9092"
+username = "prod-svc-account"
+
+# ✅ Good - Generic examples
+kafka_brokers = "kafka-broker.example.com:9092"
+username = "${KAFKA_USERNAME}"  # Retrieved from secrets manager
+```
+
+## 🧪 Testing
+
+If contributing code:
+
+```bash
+# Run Python tests
+pytest tests/ -v
+
+# Check code style
+black --check src/
+pylint src/
+
+# Type checking
+mypy src/
+```
+
+## 📋 Pull Request Checklist
 
 Before submitting your PR, ensure:
 
 - [ ] Code follows style guidelines
-- [ ] All tests pass
-- [ ] Added tests for new functionality
-- [ ] Documentation is updated
-- [ ] Commit messages are clear
-- [ ] No merge conflicts
-- [ ] Diagrams are included (if applicable)
-- [ ] Performance impact is documented
-- [ ] Security considerations are addressed
+- [ ] Documentation is clear and complete
+- [ ] No sensitive/proprietary information included
+- [ ] Examples use generic placeholders
+- [ ] Commit messages follow conventions
+- [ ] PR description explains the change
+- [ ] Related issue is referenced (if applicable)
+- [ ] All checks pass
 
----
+## 🎨 PR Description Template
 
-## 🐛 Bug Reports
+```markdown
+## Description
+Brief description of what this PR adds/fixes.
 
-Use this template for bug reports:
+## Type of Change
+- [ ] New pattern
+- [ ] Bug fix
+- [ ] Documentation improvement
+- [ ] Performance optimization
 
-**Describe the bug**
-Clear description of what the bug is.
+## Motivation
+Why is this change needed? What problem does it solve?
 
-**To Reproduce**
-Steps to reproduce:
-1. Go to '...'
-2. Run '...'
-3. See error
+## Changes Made
+- Change 1
+- Change 2
 
-**Expected behavior**
-What you expected to happen.
+## Testing
+How was this tested?
 
-**Environment:**
-- OS: [e.g., Ubuntu 22.04]
-- Python version: [e.g., 3.9.7]
-- Spark version: [e.g., 3.4.0]
-- Cloud provider: [e.g., Azure]
+## Related Issues
+Fixes #123
+Related to #456
 
-**Additional context**
-Any other relevant information.
+## Screenshots (if applicable)
+Add screenshots for UI/documentation changes.
+```
 
----
+## 🤝 Code of Conduct
 
-## 💡 Feature Requests
+### Our Standards
 
-Use this template for feature requests:
+**Positive behavior:**
+- Using welcoming and inclusive language
+- Being respectful of differing viewpoints
+- Gracefully accepting constructive criticism
+- Focusing on what's best for the community
+- Showing empathy towards others
 
-**Problem to Solve**
-What problem would this feature solve?
+**Unacceptable behavior:**
+- Trolling, insulting/derogatory comments
+- Personal or political attacks
+- Public or private harassment
+- Publishing others' private information
+- Other conduct inappropriate in a professional setting
 
-**Proposed Solution**
-How would you implement this?
+### Enforcement
 
-**Alternatives Considered**
-What other approaches did you consider?
+Violations may result in:
+1. Warning
+2. Temporary ban
+3. Permanent ban
 
-**Additional Context**
-Any other relevant information.
+Report issues to: [maintainer email]
 
----
+## 💡 Tips for Great Contributions
 
-## 🎓 First Time Contributors
+### 1. Start Small
 
-Welcome! Here are some good first issues to get started:
+Your first contribution doesn't need to be a complete pattern. Consider:
+- Fixing a typo
+- Improving documentation
+- Adding a code comment
+- Reporting a bug
 
-- Documentation improvements
-- Adding examples
-- Writing tests
-- Fixing typos
-- Improving error messages
+### 2. Provide Context
 
-Look for issues labeled `good-first-issue` or `help-wanted`.
+When adding a pattern:
+- Explain the problem it solves
+- Share real-world impact (if possible)
+- Include before/after metrics
+- Explain trade-offs
 
----
+### 3. Make it Generic
 
-## 💬 Community Guidelines
+Abstract away company-specific details:
+- Use industry-standard terminology
+- Generic examples (manufacturing, IoT, sensors)
+- Placeholder names for systems
+- Synthetic data for examples
 
-### Be Respectful
-- Use welcoming and inclusive language
-- Respect differing viewpoints
-- Accept constructive criticism gracefully
-- Focus on what's best for the community
+### 4. Document Well
 
-### Be Collaborative
-- Help others learn
-- Share knowledge generously
-- Give credit where it's due
-- Assume good intentions
-
-### Be Professional
-- Keep discussions on topic
-- Provide constructive feedback
-- Be patient with newcomers
-- Follow the code of conduct
-
----
+Good documentation includes:
+- Clear problem statement
+- Step-by-step implementation
+- Code examples that work
+- Troubleshooting section
+- Links to external resources
 
 ## 🏆 Recognition
 
 Contributors will be:
-- Added to the Contributors section
+- Listed in repository contributors
 - Mentioned in release notes
-- Featured in the README (for significant contributions)
+- Credited in pattern documentation
 
----
+## 📞 Getting Help
 
-## 📬 Questions?
-
-- 💬 [Open a Discussion](https://github.com/mounish4882/data-engineering-patterns/discussions)
-- 📧 Email: mounish4882@gmail.com
-- 🐛 [Report an Issue](https://github.com/mounish4882/data-engineering-patterns/issues)
-
----
+- 💬 [GitHub Discussions](../../discussions) - Ask questions
+- 🐛 [GitHub Issues](../../issues) - Report bugs
+- 📧 Email maintainer: mounish4882@gmail.com
 
 ## 📄 License
 
@@ -464,10 +409,8 @@ By contributing, you agree that your contributions will be licensed under the MI
 
 ---
 
-<div align="center">
+## 🙏 Thank You!
 
-**Thank you for contributing! 🙏**
+Every contribution, no matter how small, makes this repository better for the entire data engineering community.
 
-Every contribution, no matter how small, makes this project better.
-
-</div>
+**Happy contributing!** 🚀
